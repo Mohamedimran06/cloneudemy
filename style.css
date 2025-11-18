@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-s1__title{
+    color: #a435f0;
+
+}
+.navbar-s2{
+    padding: 10px;
+    border:solid black 1px;
+    border-radius: 30px;
+    width: 35%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar-s2 input
+{
+    border: none;
+    width: 300px;
+    height: 20px;
+}
+.navbar-s2 input:focus{
+    outline: none;
+}
+.navbar-s3{
+    display: flex;
+    padding: 10px;
+    gap: 13px;
+    align-items: center;
+}
+.Login{
+    background-color:  white;   
+    color: #a435f0;
+    border: solid black 1px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.Login:hover{
+    color: white;
+    background-color: #a435f0;
+    border-radius: 5px;
+    border: none;
+}
+.signup:hover{
+    color: #a435f0;
+    background-color: white;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.signup{
+    background-color: #a435f0;
+    border-radius:5px;
+    color: white;
+    padding: 5px;
+    
+}
+.navbar-s3 a{
+    text-decoration: none;
+
+}.navbar-s3 a:hover{
+    color: #a435f0;
+}
+.catagory{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+.catagory p{
+    background-color: #a435f0;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+.udemyui img{
+    width: 100%;
+}
+.recommended{
+    padding: 10px;
+
+}
+
+.recommended-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+.course-card{
+    width: 250px;
+}
+.course-card img{
+    height: 50%;
+    width: 100%;
+}
+.topic{
+    padding: 10px;
+    padding-left: 10px;
+}
+.topic-title{
+    padding-left: 10px;
+}
+.topics--container{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.topics--container p{
+padding: 10px;
+border: solid black 2px;
+flex-grow: 1;
+flex-basis: 25%;
+}
+.popular{
+    padding: 10px;
+}
+.popular-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer1{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding:30px;
+}
+.footer1-s1 p,.footer1-s2 p{
+    padding: 5px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
